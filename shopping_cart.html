@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_flex">
+        <div class="header_left">
+            <a class="logo" href="index.html"><img src="img/Logo.png" alt="logo"><span>BRAN<span class="D">D</span></span></a>
+            <form action="#">
+                <button class="browse">Browse</button>
+                <input class="search" type="search" placeholder="Search for Item...">
+                <button type="submit" class="submit"></button>
+            </form>
+        </div>
+        <div class="header_right">
+            <a href="#"><img src="img/Cart.svg" alt="Cart"></a>
+            <a href="checkout.html" class="myacc">My account</a>
+        </div>
+    </div>
+</header>
+<nav class="nav">
+    <ul class="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="product.html">man</a></li>
+        <li><a href="#">women</a></li>
+        <li><a href="#">kids</a></li>
+        <li><a href="#">accoseriese</a></li>
+        <li><a href="#">featured</a></li>
+        <li><a href="#">hot deals</a></li>
+    </ul>
+</nav>
+<div class="breadcrumbs">
+    <div class="container breadcrumbs-flex">
+        <h2>New Arrivals</h2>
+        <ul class="breadcrumbs-one">
+            <li><a href="index.html">home</a></li>
+            <li><a href="#">men</a></li>
+            <li><a href="product.html" class="current">new arrivals</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container table">
+        <table>
+            <thead>
+                <tr>
+                    <td class="th1" colspan="2">Product Detail</td>
+                    <td>sunite Price</td>
+                    <td>Quantity</td>
+                    <td>shipping</td>
+                    <td>Subtotal</td>
+                    <td>ACTION</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="td1"><img src="img/products/cart_1.png" alt="cart_1"></td>
+                <td class="td2"><a href="#"><h5>Mango  People  T-shirt</h5></a><br><span>Color:  Red<br>Size:  Xll</span></td>
+                <td>$150</td>
+                <td><input type="number" value="2" style="width: 54px; text-align: center"></td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><i class="fas fa-times-circle"></i></td>
+            </tr>
+            <tr>
+                <td class="td1"><img src="img/products/cart_2.png" alt="cart_1"></td>
+                <td class="td2"><a href="#"><h5>Mango  People  T-shirt</h5></a><br><span>Color:  Red<br>Size:  Xll</span></td>
+                <td>$150</td>
+                <td><input type="number" value="2" style="width: 54px; text-align: center"></td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><i class="fas fa-times-circle"></i></td>
+            </tr>
+            <tr>
+                <td class="td1"><img src="img/products/cart_3.png" alt="cart_1"></td>
+                <td class="td2"><a href="#"><h5>Mango  People  T-shirt</h5></a><br><span>Color:  Red<br>Size:  Xll</span></td>
+                <td>$150</td>
+                <td><input type="number" value="2" style="width: 54px; text-align: center"></td>
+                <td>FREE</td>
+                <td>$300</td>
+                <td><i class="fas fa-times-circle"></i></td>
+            </tr>
+            </tbody>
+        </table>
+</div>
+<div class="container buttons">
+    <button class="button_cart">cLEAR SHOPPING CART</button>
+    <button class="button_cart">cONTINUE sHOPPING</button>
+</div>
+<div class="container form_cart">
+    <form class="cart_form_left" action="#">
+        <h3>Shipping Adress</h3>
+        <input type="text" placeholder="Bangladesh">
+        <input type="text" placeholder="State">
+        <input type="text" placeholder="Postcode/Zip">
+        <button class="get_a_quote">get a quote</button>
+    </form>
+    <form action="#" class="cart_form_right">
+        <h3>coupon  discount</h3>
+        <label>Enter your coupon code if you have one<br><input type="text" placeholder="State"></label>
+        <button class="apply_coupon">Apply coupon</button>
+    </form>
+    <div class="right_form">
+        <div style="margin-top: 20px;margin-bottom: 10px;"><span>Sub total</span><span>$900</span></div>
+        <div><span class="black_form">GRAND TOTAL</span><span class="red_form">$900</span>
+        <div class="border"></div></div>
+        <button class="proceed_to_checkout">proceed to checkout</button>
+
+    </div>
+</div>
+
+<footer>
+    <div class="subscribe">
+        <div class="container subscribe_flex">
+            <div class="subscribe_left">
+                <img src="img/foto_subscribe.png" alt="Bin_Burhan">
+                <div class="subsc_text_left">
+                    <blockquote>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<br>a pulvinar purus condimentum
+                        a. Aliquam condimentum<br>mattis neque sed pretium”
+                    </blockquote>
+
+                    <h3>Bin Burhan</h3>
+                    <span>Dhaka, Bd</span>
+                </div>
+            </div>
+            <div class="subscribe_right">
+                <h2>Subscribe</h2>
+                <span>FOR OUR NEWLETTER AND PROMOTION</span>
+                <form action="#">
+                    <input class="email" type="email" placeholder="Enter Your Email">
+                    <button class="sub_email" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="container footer">
+        <div class="text_footer">
+            <div class="logo_footer">
+                <a class="logo" href="#"><img src="img/Logo.png" alt="logo"><span>BRAN<span
+                        class="D">D</span></span></a>
+            </div>
+            <span class="info_footer">Objectively transition extensive data rather than cross functional<wbr>solutions. Monotonectally syndicate multidisciplinary materials<wbr>before go forward benefits. Intrinsicly syndicate an expanded array<wbr>of processes and cross-unit partnerships.<br><br>Efficiently plagiarize 24/365 action items and focused infomediaries.<wbr>Distinctively seize superior initiatives for wireless technologies.<wbr>Dynamically optimize.</span>
+        </div>
+        <div class="menu_footer">
+            <nav class="company">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="information">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="#">Tearms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">How to Buy</a></li>
+                    <li><a href="#">How to Sell</a></li>
+                    <li><a href="#">Promotion</a></li>
+                </ul>
+            </nav>
+            <nav class="shop_category">
+                <h3>SHOP CATEGORY</h3>
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Apparel</a></li>
+                    <li><a href="#">Brows All</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer_down">
+        <div class="container footer_down_flex">
+            <div class="container footer_down_child">
+                <span>&copy; 2017  Brand  All Rights Reserved.</span>
+            </div>
+            <div class="container footer_social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
