@@ -787,20 +787,51 @@ fieldset {
   color: #6f6e6e;
   padding-right: 5px;
 }
-#range {
+#slider-range {
   width: 262px;
   height: 6px;
   border-radius: 3px;
   background-color: #f0f0f0;
   cursor: pointer;
 }
-.text_price {
+#amount,
+#amount1 {
+  width: 131px;
   display: flex;
   justify-content: space-between;
   font-family: OpenSans;
   font-size: 14px;
   line-height: 1.86;
   color: #6f6e6e;
+  border: none;
+}
+#amount1 {
+  text-align: right;
+}
+#amount_box {
+  display: flex;
+  justify-content: space-between;
+}
+.ui-slider-handle {
+  background: #f16d7f !important;
+  border-radius: 50%;
+  border: none;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.4em !important;
+  margin-left: -0.6em !important;
+}
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+.ui-slider-range {
+  background-color: #f16d7f;
 }
 .form {
   display: flex;
