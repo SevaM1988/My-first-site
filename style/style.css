@@ -126,8 +126,6 @@ button:hover {
 .myacc:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
-  transform: rotate(360deg);
-  transition: 2s;
 }
 .slider {
   background-color: #e8e8e8;
@@ -161,7 +159,6 @@ button:hover {
   padding-bottom: 5px;
   display: block;
   border-bottom: 4px solid #f16d7f;
-  transition: 1s;
 }
 .slider {
   background: url(../img/slider.png) no-repeat center;
@@ -398,8 +395,6 @@ button:hover {
 .browse_all_pr:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
-  transform: rotate(360deg);
-  transition: 2s;
 }
 .sale {
   color: #ffffff;
