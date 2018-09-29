@@ -508,6 +508,15 @@ blockquote {
   border-bottom-right-radius: 25px;
   border: none;
 }
+.feedback__error {
+  display: none;
+  color: #f44336;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  margin: 10px 30px 0;
+  transition: 1s;
+  position: relative;
+}
 .subscribe_right form {
   display: flex;
   align-items: center;

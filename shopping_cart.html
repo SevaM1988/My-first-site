@@ -133,10 +133,12 @@
             <div class="subscribe_right">
                 <h2>Subscribe</h2>
                 <span>FOR OUR NEWLETTER AND PROMOTION</span>
-                <form action="#">
-                    <input class="email" type="email" placeholder="Enter Your Email">
-                    <button class="sub_email" type="submit">Subscribe</button>
+                <form action="#" onsubmit="event.preventDefault();">
+                    <input class="email" type="email" placeholder="Enter Your Email" id="feedback__email">
+                    <button class="sub_email" type="submit" id="btnSubmit">Subscribe</button>
                 </form>
+                <div id="feedback__errorEmail" class="feedback__error">ERROR! E-mail example:
+                    <i>mymail@gmail.com</i></div>
             </div>
         </div>
 
@@ -195,6 +197,8 @@
         </div>
     </div>
 </footer>
+
+<script src="script/ValidateEmail.js"></script>
 
 </body>
 </html>
