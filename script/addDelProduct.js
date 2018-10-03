@@ -1,5 +1,9 @@
 'use strict';
 
+$(document).ready(function () {
+
+    var basket = new Basket('basket');
+
 $('.buy_pr').on('click', function () {
     var idProduct = 'MANGO PEOPLE T-SHIRT';
     var quantity = 1;
@@ -12,4 +16,5 @@ $('.fa-times-circle').on('click', function () {
     var idProduct = parseInt($(this).attr('data-id'));
 
     basket.remove(idProduct);
+});
 });
