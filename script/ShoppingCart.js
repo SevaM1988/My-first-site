@@ -10,6 +10,9 @@ function Basket(idBasket) {
     this.collectBasketItems(); // Получение товаров
 }
 
+Basket.prototype = Object.create(Container.prototype);
+Basket.prototype.constructor = Basket;
+
 /**
  * Метод получения/загрузки товаров.
  */
