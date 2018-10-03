@@ -33,8 +33,7 @@ Basket.prototype.collectBasketItems = function () {
             this.amountGoods = data.amount;
 
 
-            $basketData.append('<p>Всего товаров: ' + this.countGoods + '</p>');
-            $basketData.append('<p>Общая сумма: ' + this.amountGoods + '</p>');
+            $basketData.append('<p>' + this.countGoods + '</p>');
 
             $basketData.appendTo(appendId);
 
@@ -92,6 +91,5 @@ Basket.prototype.remove = function (idProduct) {
 Basket.prototype.refresh = function () {
     var $basketDataDiv = $('#basketData');
     $basketDataDiv.empty(); // Очищаем содержимое контейнера
-    $basketDataDiv.append('<p>Всего товаров: ' + this.countGoods + '</p>');
-    $basketDataDiv.append('<p>Общая сумма: ' + this.amountGoods + '</p>');
+    $basketDataDiv.append('<p>' + this.countGoods + '</p>');
 };
