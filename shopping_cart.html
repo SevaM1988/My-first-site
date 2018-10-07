@@ -199,6 +199,12 @@
 </footer>
 
 <script src="script/ValidateEmail.js"></script>
+<script>
+    $(document).ready(function () {
+        var cart = new Cart('../', true);
+        new User(cart);
+    });
+</script>
 
 </body>
 </html>
