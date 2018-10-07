@@ -21,7 +21,7 @@ Basket.prototype.collectBasketItems = function () {
     var appendId = '#' + this.id + '_items';
 
     $.get({
-        url: 'basket.json',
+        url: '/DB/cart.json',
         dataType: 'json',
         context: this,
         success: function (data) {

@@ -2,14 +2,8 @@
 
 $(document).ready(function () {
 
-    var basket = new Basket('basket');
+$.getJSON('products.json', function (item) {
 
-$('.buy_pr').on('click', function () {
-    var idProduct = 'MANGO PEOPLE T-SHIRT';
-    var quantity = 1;
-    var price = '$' + 52;
-
-    basket.add(idProduct, quantity, price);
 });
 
 $('.fa-times-circle').on('click', function () {
